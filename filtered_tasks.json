@@ -1,0 +1,3130 @@
+{
+  "from_category": {
+    "Question Answering": {
+      "Classification": [
+        "task154_tomqa_find_location_hard_noise.json",
+        "task153_tomqa_find_location_hard_clean.json",
+        "task152_tomqa_find_location_easy_noise.json",
+        "task230_iirc_passage_classification.json",
+        "task380_boolq_yes_no_question.json",
+        "task151_tomqa_find_location_easy_clean.json"
+      ],
+      "Open-Ended": [
+        "task898_freebase_qa_answer_generation.json",
+        "task002_quoref_answer_generation.json",
+        "task591_sciq_answer_generation.json",
+        "task041_qasc_answer_generation.json",
+        "task080_piqa_answer_generation.json",
+        "task061_ropes_answer_generation.json",
+        "task237_iirc_answer_from_subtext_answer_generation.json",
+        "task170_hotpotqa_answer_generation.json",
+        "task582_naturalquestion_answer_generation.json",
+        "task028_drop_answer_generation.json",
+        "task615_moviesqa_answer_generation.json",
+        "task238_iirc_answer_from_passage_answer_generation.json",
+        "task1334_sqac_answer_generation.json",
+        "task024_cosmosqa_answer_generation.json",
+        "task849_pubmedqa_answer_generation.json"
+      ],
+      "Others": [
+        "task164_mcscript_question_answering_text.json",
+        "task049_multirc_questions_needed_to_answer.json",
+        "task165_mcscript_question_answering_commonsense.json",
+        "task390_torque_text_span_selection.json"
+      ]
+    },
+    "Text Categorization": {
+      "Open-Ended": [
+        "task197_mnli_domain_answer_generation.json",
+        "task143_odd-man-out_classification_generate_category.json",
+        "task617_amazonreview_category_text_generation.json",
+        "task633_dbpedia_14_answer_generation.json",
+        "task496_semeval_answer_generation.json"
+      ],
+      "Classification": [
+        "task1308_amazonreview_category_classification.json",
+        "task501_scruples_anecdotes_post_type_verification.json",
+        "task204_mnli_same_genre_classification.json",
+        "task198_mnli_domain_classification.json",
+        "task1187_politifact_classification.json",
+        "task379_agnews_topic_classification.json",
+        "task495_semeval_headline_classification.json",
+        "task521_trivia_question_classification.json",
+        "task1712_poki_classification.json",
+        "task115_help_advice_classification.json",
+        "task1490_bengali_personal_hate_speech_binary_classification.json",
+        "task680_hope_edi_tamil_text_classification.json",
+        "task1541_agnews_classification.json",
+        "task679_hope_edi_english_text_classification.json",
+        "task280_stereoset_classification_stereotype_type.json",
+        "task1493_bengali_geopolitical_hate_speech_binary_classification.json",
+        "task1491_bengali_political_hate_speech_binary_classification.json",
+        "task1492_bengali_religious_hate_speech_binary_classification.json",
+        "task629_dbpedia_14_classification.json",
+        "task1434_head_qa_classification.json"
+      ]
+    },
+    "Question Generation": {
+      "Open-Ended": [
+        "task348_squad2.0_unanswerable_question_generation.json",
+        "task235_iirc_question_from_subtext_answer_generation.json",
+        "task032_winogrande_question_generation_person.json",
+        "task581_socialiqa_question_generation.json",
+        "task040_qasc_question_generation.json",
+        "task594_sciq_question_generation.json",
+        "task236_iirc_question_from_passage_answer_generation.json",
+        "task191_hotpotqa_question_generation.json",
+        "task649_race_blank_question_generation.json",
+        "task1335_sqac_question_generation.json",
+        "task074_squad1.1_question_generation.json",
+        "task023_cosmosqa_question_generation.json",
+        "task847_pubmedqa_question_generation.json",
+        "task845_pubmedqa_question_generation.json",
+        "task311_race_question_generation.json",
+        "task184_break_generate_question.json",
+        "task301_record_question_generation.json",
+        "task240_tweetqa_question_generation.json",
+        "task246_dream_question_generation.json",
+        "task568_circa_question_generation.json",
+        "task026_drop_question_generation.json",
+        "task1326_qa_zre_question_generation_from_answer.json",
+        "task182_duorc_question_generation.json",
+        "task1325_qa_zre_question_generation_on_subject_relation.json"
+      ],
+      "Others": [
+        "task030_winogrande_full_person.json"
+      ]
+    },
+    "Text to Code": {
+      "Open-Ended": [
+        "task128_scan_structured_text_generation_command_action_short.json",
+        "task126_scan_structured_text_generation_command_action_all.json",
+        "task210_logic2text_structured_text_generation.json",
+        "task130_scan_structured_text_generation_command_action_long.json",
+        "task077_splash_explanation_to_sql.json",
+        "task076_splash_correcting_sql_mistake.json",
+        "task107_splash_question_to_sql.json"
+      ],
+      "Classification": [
+        "task212_logic2text_classification.json",
+        "task211_logic2text_classification.json",
+        "task956_leetcode_420_strong_password_check.json"
+      ]
+    },
+    "Language Identification": {
+      "Classification": [
+        "task441_eng_guj_parallel_corpus_gu-en_language_identification.json",
+        "task427_hindienglish_corpora_hi-en_language_identification.json",
+        "task533_europarl_es-en_language_identification.json",
+        "task447_opus_paracrawl_classification.json",
+        "task1618_cc_alligned_classify_tel_eng.json",
+        "task1621_menyo20k-mt_en_yo_language_identification.json",
+        "task896_miam_language_classification.json",
+        "task1370_newscomm_classification.json"
+      ]
+    },
+    "Translation": {
+      "Open-Ended": [
+        "task425_hindienglish_corpora_en_hi_translation.json",
+        "task1128_alt_th_ja_translation.json",
+        "task424_hindienglish_corpora_hi_en_translation.json",
+        "task1119_alt_fil_ja_translation.json",
+        "task312_europarl_sv_en_translation.json",
+        "task1122_alt_khm_ja_translation.json",
+        "task313_europarl_en_sv_translation.json",
+        "task1116_alt_id_ja_translation.json",
+        "task436_alt_ja_en_translation.json",
+        "task1115_alt_ja_id_translation.json",
+        "task1121_alt_ja_khm_translation.json",
+        "task1125_alt_lo_ja_translation.json",
+        "task1124_alt_ja_lo_translation.json",
+        "task1118_alt_ja_fil_translation.json",
+        "task1127_alt_ja_th_translation.json",
+        "task660_mizan_fa_en_translation.json",
+        "task658_tep_en_fa_translation.json",
+        "task663_global_voices_en_fa_translation.json",
+        "task655_bible_en_fa_translation.json",
+        "task654_bible_fa_en_translation.json",
+        "task659_tep_fa_en_translation.json",
+        "task650_opus100_ar_en_translation.json",
+        "task661_mizan_en_fa_translation.json",
+        "task651_opus100_en_ar_translation.json",
+        "task662_global_voices_fa_en_translation.json"
+      ]
+    },
+    "Summarization": {
+      "Open-Ended": [
+        "task1309_amazonreview_summary_classification.json",
+        "task618_amazonreview_summary_text_generation.json",
+        "task511_reddit_tifu_long_text_summarization.json",
+        "task589_amazonfood_summary_text_generation.json",
+        "task1291_multi_news_summarization.json",
+        "task1290_xsum_summarization.json",
+        "task1357_xlsum_summary_generation.json",
+        "task1658_billsum_summarization.json",
+        "task668_extreme_abstract_summarization.json",
+        "task1499_dstc3_summarization.json"
+      ]
+    },
+    "Data to Text": {
+      "Others": [
+        "task1728_web_nlg_data_to_text.json"
+      ],
+      "Open-Ended": [
+        "task1598_nyc_long_text_generation.json",
+        "task1409_dart_text_generation.json",
+        "task102_commongen_sentence_generation.json",
+        "task677_ollie_sentence_answer_generation.json",
+        "task1407_dart_question_generation.json",
+        "task1631_openpi_answer_generation.json",
+        "task957_e2e_nlg_text_generation_generate.json"
+      ]
+    },
+    "Coherence Classification": {
+      "Classification": [
+        "task066_timetravel_binary_consistency_classification.json",
+        "task069_abductivenli_classification.json",
+        "task070_abductivenli_incorrect_classification.json",
+        "task065_timetravel_consistent_sentence_classification.json",
+        "task298_storycloze_correct_end_classification.json"
+      ]
+    },
+    "Information Extraction": {
+      "Open-Ended": [
+        "task292_storycommonsense_character_text_generation.json",
+        "task676_ollie_relationship_answer_generation.json",
+        "task678_ollie_actual_relationship_answer_generation.json",
+        "task578_curiosity_dialogs_answer_generation.json",
+        "task684_online_privacy_policy_text_information_type_generation.json",
+        "task683_online_privacy_policy_text_purpose_answer_generation.json",
+        "task958_e2e_nlg_text_generation_parse.json"
+      ],
+      "Others": [
+        "task1410_dart_relationship_extraction.json",
+        "task747_glucose_cause_emotion_detection.json",
+        "task748_glucose_reverse_cause_event_detection.json",
+        "task749_glucose_reverse_cause_emotion_detection.json",
+        "task1597_nyc_slot_filling.json",
+        "task1510_evalution_relation_extraction.json",
+        "task1411_dart_subject_identification.json",
+        "task1413_dart_object_identification.json",
+        "task388_torque_token_classification.json"
+      ],
+      "Classification": [
+        "task456_matres_intention_classification.json"
+      ]
+    },
+    "Question Understanding": {
+      "Classification": [
+        "task227_clariq_classification.json",
+        "task900_freebase_qa_category_classification.json",
+        "task046_miscellaneous_question_typing.json",
+        "task1289_trec_classification.json",
+        "task673_google_wellformed_query_classification.json",
+        "task384_socialiqa_question_classification.json",
+        "task834_mathdataset_classification.json",
+        "task474_parsinlu_mc_classification.json"
+      ],
+      "Open-Ended": [
+        "task899_freebase_qa_topic_generation.json",
+        "task1328_qa_zre_relation_generation_from_question.json",
+        "task027_drop_answer_type_generation.json"
+      ],
+      "Others": [
+        "task044_essential_terms_identifying_essential_words.json"
+      ]
+    },
+    "Title Generation": {
+      "Open-Ended": [
+        "task500_scruples_anecdotes_title_generation.json",
+        "task1161_coda19_title_generation.json",
+        "task219_rocstories_title_answer_generation.json",
+        "task1659_title_generation.json",
+        "task510_reddit_tifu_title_summarization.json",
+        "task569_recipe_nlg_text_generation.json",
+        "task1356_xlsum_title_generation.json",
+        "task1358_xlsum_title_generation.json",
+        "task1586_scifact_title_generation.json",
+        "task418_persent_title_generation.json",
+        "task1540_parsed_pdfs_summarization.json"
+      ],
+      "Classification": [
+        "task220_rocstories_title_classification.json"
+      ],
+      "Others": [
+        "task1342_amazon_us_reviews_title.json"
+      ]
+    },
+    "Intent Identification": {
+      "Open-Ended": [
+        "task294_storycommonsense_motiv_text_generation.json"
+      ],
+      "Classification": [
+        "task848_pubmedqa_classification.json",
+        "task573_air_dialogue_classification.json"
+      ]
+    },
+    "Commonsense Classification": {
+      "Classification": [
+        "task1211_atomic_classification_hassubevent.json",
+        "task1203_atomic_classification_xreact.json",
+        "task1199_atomic_classification_xattr.json",
+        "task1206_atomic_classification_isbefore.json",
+        "task1201_atomic_classification_xintent.json",
+        "task1212_atomic_classification_hasproperty.json",
+        "task1209_atomic_classification_objectuse.json",
+        "task1207_atomic_classification_atlocation.json",
+        "task1205_atomic_classification_isafter.json",
+        "task1196_atomic_classification_oeffect.json",
+        "task1197_atomic_classification_oreact.json",
+        "task1202_atomic_classification_xneed.json",
+        "task1198_atomic_classification_owant.json",
+        "task1200_atomic_classification_xeffect.json",
+        "task1214_atomic_classification_xwant.json",
+        "task1215_atomic_classification_capableof.json",
+        "task1204_atomic_classification_hinderedby.json",
+        "task291_semeval_2020_task4_commonsense_validation.json",
+        "task1210_atomic_classification_madeupof.json",
+        "task1213_atomic_classification_desires.json"
+      ]
+    },
+    "Sentiment Analysis": {
+      "Classification": [
+        "task1312_amazonreview_polarity_classification.json",
+        "task1310_amazonreview_rating_classification.json",
+        "task518_emo_different_dialogue_emotions.json",
+        "task586_amazonfood_polarity_classification.json",
+        "task475_yelp_polarity_classification.json",
+        "task195_sentiment140_classification.json",
+        "task284_imdb_classification.json",
+        "task1343_amazon_us_reviews_rating.json",
+        "task588_amazonfood_rating_classification.json",
+        "task493_review_polarity_classification.json",
+        "task423_persent_document_sentiment_verification.json",
+        "task422_persent_sentence_sentiment_verification.json",
+        "task363_sst2_polarity_classification.json",
+        "task1292_yelp_review_full_text_categorization.json",
+        "task421_persent_sentence_sentiment_classification.json",
+        "task929_products_reviews_classification.json",
+        "task517_emo_classify_emotion_of_dialogue.json",
+        "task587_amazonfood_polarity_correction_classification.json",
+        "task1536_daily_dialog_happiness_classification.json",
+        "task1338_peixian_equity_evaluation_corpus_sentiment_classifier.json"
+      ],
+      "Open-Ended": [
+        "task293_storycommonsense_emotion_text_generation.json",
+        "task196_sentiment140_answer_generation.json",
+        "task285_imdb_answer_generation.json",
+        "task494_review_polarity_answer_generation.json"
+      ],
+      "Others": [
+        "task1532_daily_dialog_emotion_classification.json"
+      ]
+    },
+    "Coreference Resolution": {
+      "Open-Ended": [
+        "task033_winogrande_answer_generation.json",
+        "task1391_winogrande_easy_answer_generation.json",
+        "task330_gap_answer_generation.json"
+      ],
+      "Others": [
+        "task304_numeric_fused_head_resolution.json",
+        "task401_numeric_fused_head_reference.json"
+      ],
+      "Classification": [
+        "task329_gap_classification.json",
+        "task133_winowhy_reason_plausibility_detection.json"
+      ]
+    },
+    "Text Matching": {
+      "Classification": [
+        "task440_eng_guj_parallel_corpus_gu-en_classification.json",
+        "task1285_kpa_keypoint_matching.json",
+        "task314_europarl_sv-en_classification.json",
+        "task273_europarl_classification.json",
+        "task315_europarl_sv-en_language_identification.json",
+        "task426_hindienglish_corpora_hi-en_classification.json",
+        "task1287_glue_qqp_paraphrasing.json",
+        "task400_paws_paraphrase_classification.json",
+        "task532_europarl_en-es_classification.json",
+        "task1162_coda19_title_classification.json",
+        "task1408_dart_similarity_classification.json",
+        "task566_circa_classification.json",
+        "task1587_scifact_classification.json",
+        "task465_parsinlu_qqp_classification.json",
+        "task1288_glue_mrpc_paraphrasing.json",
+        "task1347_glue_sts-b_similarity_classification.json"
+      ],
+      "Open-Ended": [
+        "task289_gigaword_summarization.json",
+        "task1129_alt_ja_th_answer_generation.json",
+        "task1123_alt_ja_khm_answer_generation.json",
+        "task1120_alt_ja_fil_answer_generation.json",
+        "task1126_alt_ja_lo_answer_generation.json",
+        "task1117_alt_ja_id_answer_generation.json",
+        "task437_alt_en_ja_answer_generation.json",
+        "task434_alt_en_hi_answer_generation.json",
+        "task590_amazonfood_summary_correction_classification.json"
+      ]
+    },
+    "Sentence Perturbation": {
+      "Open-Ended": [
+        "task413_mickey_en_sentence_perturbation_generation.json",
+        "task412_mickey_zh_sentence_perturbation_generation.json",
+        "task408_mickey_it_sentence_perturbation_generation.json",
+        "task415_mickey_bg_sentence_perturbation_generation.json",
+        "task407_mickey_hi_sentence_perturbation_generation.json",
+        "task416_mickey_de_sentence_perturbation_generation.json",
+        "task409_mickey_nl_sentence_perturbation_generation.json",
+        "task411_mickey_vi_sentence_perturbation_generation.json",
+        "task410_mickey_ru_sentence_perturbation_generation.json",
+        "task406_mickey_fr_sentence_perturbation_generation.json",
+        "task417_mickey_es_sentence_perturbation_generation.json",
+        "task414_mickey_ar_sentence_perturbation_generation.json"
+      ]
+    },
+    "Cause Effect Classification": {
+      "Others": [
+        "task614_glucose_cause_event_detection.json"
+      ],
+      "Classification": [
+        "task392_inverse_causal_relationship.json",
+        "task391_causal_relationship.json"
+      ]
+    },
+    "Overlap Extraction": {
+      "Others": [
+        "task039_qasc_find_overlapping_words.json"
+      ]
+    },
+    "Answer Verification": {
+      "Classification": [
+        "task579_socialiqa_classification.json",
+        "task846_pubmedqa_classification.json",
+        "task1392_superglue_multirc_answer_verification.json",
+        "task241_tweetqa_classification.json",
+        "task057_multirc_classify_incorrect_answer.json",
+        "task1294_wiki_qa_answer_verification.json"
+      ]
+    },
+    "Fill in The Blank": {
+      "Classification": [
+        "task672_nummersense.json"
+      ],
+      "Others": [
+        "task945_wiki_cloze_bn_multiple_choice_question_answering.json",
+        "task953_wiki_cloze_ta_multiple_choice_question_answering.json",
+        "task947_wiki_cloze_hi_multiple_choice_question_answering.json",
+        "task950_wiki_cloze_mr_multiple_choice_question_answering.json",
+        "task949_wiki_cloze_ml_multiple_choice_question_answering.json",
+        "task954_wiki_cloze_te_multiple_choice_question_answering.json",
+        "task948_wiki_cloze_kn_multiple_choice_question_answering.json",
+        "task946_wiki_cloze_gu_multiple_choice_question_answering.json",
+        "task952_wiki_cloze_pa_multiple_choice_question_answering.json",
+        "task944_wiki_cloze_as_multiple_choice_question_answering.json"
+      ],
+      "Open-Ended": [
+        "task1360_numer_sense_multiple_choice_qa_generation.json",
+        "task1359_numer_sense_answer_generation.json",
+        "task1217_atomic_answer_generation.json",
+        "task572_recipe_nlg_text_generation.json"
+      ]
+    },
+    "Word Semantics": {
+      "Others": [
+        "task141_odd-man-out_classification_category.json",
+        "task142_odd-man-out_classification_no_category.json",
+        "task1508_wordnet_antonyms.json"
+      ]
+    },
+    "Sentence Compression": {
+      "Open-Ended": [
+        "task1340_msr_text_compression_compression.json"
+      ]
+    },
+    "Gender Classification": {
+      "Classification": [
+        "task1336_peixian_equity_evaluation_corpus_gender_classifier.json",
+        "task350_winomt_classification_gender_identifiability_pro.json",
+        "task351_winomt_classification_gender_identifiability_anti.json"
+      ]
+    },
+    "Wrong Candidate Generation": {
+      "Open-Ended": [
+        "task454_swag_incorrect_answer_generation.json",
+        "task042_qasc_incorrect_option_generation.json",
+        "task025_cosmosqa_incorrect_answer_generation.json",
+        "task592_sciq_incorrect_answer_generation.json",
+        "task081_piqa_wrong_answer_generation.json",
+        "task303_record_incorrect_answer_generation.json",
+        "task287_casehold_legal_incorrect_answer_generation.json",
+        "task283_dream_incorrect_answer_generation.json",
+        "task331_gap_incorrect_answer_generation.json"
+      ],
+      "Classification": [
+        "task1663_cedr_ru_incorrect_classification.json"
+      ],
+      "Others": [
+        "task055_multirc_write_incorrect_answer.json"
+      ]
+    },
+    "Misc.": {
+      "Open-Ended": [
+        "task305_jeopardy_answer_generation_normal.json",
+        "task924_event2mind_word_generation.json",
+        "task1596_event2mind_text_generation_2.json",
+        "task306_jeopardy_answer_generation_double.json",
+        "task308_jeopardy_answer_generation_all.json",
+        "task1595_event2mind_text_generation_1.json",
+        "task169_strategyqa_sentence_generation.json",
+        "task307_jeopardy_answer_generation_final.json",
+        "task567_circa_text_generation.json"
+      ],
+      "Classification": [
+        "task1507_boolean_temporal_reasoning.json"
+      ]
+    },
+    "Ethics Classification": {
+      "Classification": [
+        "task502_scruples_anecdotes_whoiswrong_verification.json",
+        "task508_scruples_dilemmas_more_ethical_isidentifiable.json",
+        "task106_scruples_ethical_judgment.json",
+        "task498_scruples_anecdotes_whoiswrong_classification.json",
+        "task224_scruples_anecdotes_ethical_judgment.json"
+      ]
+    },
+    "Named Entity Recognition": {
+      "Open-Ended": [
+        "task571_recipe_nlg_ner_generation.json",
+        "task570_recipe_nlg_ner_generation.json",
+        "task1545_conll2002_person_name_extraction_answer_generation.json",
+        "task1546_conll2002_location_name_extraction_answer_generation.json",
+        "task1544_conll2002_named_entity_recognition_answer_generation.json",
+        "task419_persent_answer_generation.json"
+      ],
+      "Others": [
+        "task610_conllpp_ner.json",
+        "task1447_drug_extraction_ade.json"
+      ]
+    },
+    "Dialogue Generation": {
+      "Open-Ended": [
+        "task574_air_dialogue_sentence_generation.json",
+        "task1729_personachat_generate_next.json",
+        "task576_curiosity_dialogs_answer_generation.json",
+        "task360_spolin_yesand_response_generation.json",
+        "task565_circa_answer_generation.json",
+        "task1603_smcalflow_sentence_generation.json",
+        "task1714_convai3_sentence_generation.json"
+      ],
+      "Classification": [
+        "task611_mutual_multi_turn_dialogue.json",
+        "task361_spolin_yesand_prompt_response_classification.json"
+      ],
+      "Others": [
+        "task1730_personachat_choose_next.json"
+      ]
+    },
+    "Text Quality Evaluation": {
+      "Classification": [
+        "task616_cola_classification.json",
+        "task1283_hrngo_quality_classification.json",
+        "task1186_nne_hrngo_classification.json"
+      ],
+      "Open-Ended": [
+        "task675_google_wellformed_query_sentence_generation.json",
+        "task674_google_wellformed_query_sentence_generation.json"
+      ]
+    },
+    "Program Execution": {
+      "Others": [
+        "task756_find_longert_substring_and_return_all_unique_alphabets_in_it.json",
+        "task507_position_of_all_numerical_elements_in_list.json",
+        "task755_find_longest_substring_and_replace_its_sorted_lowercase_version_in_both_lists.json",
+        "task372_synthetic_palindrome_numbers.json",
+        "task267_concatenate_and_reverse_all_elements_from_index_i_to_j.json",
+        "task366_synthetic_return_primes.json",
+        "task605_find_the_longest_common_subsequence_in_two_lists.json",
+        "task376_reverse_order_of_words.json",
+        "task851_synthetic_multiply_evens.json",
+        "task160_replace_letter_in_a_sentence.json",
+        "task600_find_the_longest_common_substring_in_two_strings.json",
+        "task373_synthetic_round_tens_place.json",
+        "task101_reverse_and_concatenate_all_elements_from_index_i_to_j.json",
+        "task378_reverse_words_of_given_length.json",
+        "task1444_round_power_of_two.json",
+        "task852_synthetic_multiply_odds.json",
+        "task064_all_elements_except_first_i.json",
+        "task1542_every_ith_element_from_starting.json"
+      ],
+      "Classification": [
+        "task1445_closest_integers.json",
+        "task157_count_vowels_and_consonants.json",
+        "task504_count_all_alphabetical_elements_in_list.json",
+        "task523_find_if_numbers_or_alphabets_are_more_in_list.json",
+        "task505_count_all_numerical_elements_in_list.json",
+        "task159_check_frequency_of_words_in_sentence_pair.json",
+        "task113_count_frequency_of_letter.json"
+      ]
+    },
+    "Text Simplification": {
+      "Classification": [
+        "task112_asset_simple_sentence_identification.json"
+      ],
+      "Open-Ended": [
+        "task934_turk_simplification.json",
+        "task111_asset_sentence_simplification.json"
+      ]
+    },
+    "Question Rewriting": {
+      "Others": [
+        "task1345_glue_qqp_question_paraprashing.json"
+      ],
+      "Open-Ended": [
+        "task034_winogrande_question_modification_object.json",
+        "task035_winogrande_question_modification_person.json",
+        "task1195_disflqa_disfluent_to_fluent_conversion.json",
+        "task670_ambigqa_question_generation.json",
+        "task671_ambigqa_text_generation.json",
+        "task402_grailqa_paraphrase_generation.json"
+      ]
+    },
+    "Speaker Identification": {
+      "Classification": [
+        "task577_curiosity_dialogs_classification.json",
+        "task638_multi_woz_classification.json",
+        "task575_air_dialogue_classification.json",
+        "task1599_smcalflow_classification.json"
+      ]
+    },
+    "Linguistic Probing": {
+      "Classification": [
+        "task515_senteval_odd_word_out.json",
+        "task114_is_the_given_word_longest.json",
+        "task430_senteval_subject_count.json",
+        "task516_senteval_conjoints_inversion.json",
+        "task428_senteval_inversion.json",
+        "task431_senteval_object_count.json",
+        "task429_senteval_tense.json"
+      ]
+    },
+    "Pos Tagging": {
+      "Classification": [
+        "task346_hybridqa_classification.json",
+        "task1167_penn_treebank_coarse_pos_tagging.json",
+        "task1168_brown_coarse_pos_tagging.json",
+        "task155_count_nouns_verbs.json",
+        "task583_udeps_eng_coarse_pos_tagging.json",
+        "task584_udeps_eng_fine_pos_tagging.json"
+      ],
+      "Open-Ended": [
+        "task345_hybridqa_answer_generation.json",
+        "task382_hybridqa_answer_generation.json",
+        "task347_hybridqa_incorrect_answer_generation.json",
+        "task1543_conll2002_parts_of_speech_tagging_answer_generation.json"
+      ]
+    },
+    "Sentence Composition": {
+      "Open-Ended": [
+        "task189_snli_neutral_to_contradiction_text_modification.json",
+        "task188_snli_neutral_to_entailment_text_modification.json",
+        "task186_snli_contradiction_to_entailment_text_modification.json",
+        "task185_snli_contradiction_to_neutral_text_modification.json",
+        "task037_qasc_generate_related_fact.json",
+        "task187_snli_entailment_to_contradiction_text_modification.json",
+        "task203_mnli_sentence_generation.json",
+        "task184_snli_entailment_to_neutral_text_modification.json",
+        "task1368_healthfact_sentence_generation.json",
+        "task1556_scitail_passage_generation.json",
+        "task1364_hans_answer_generation.json"
+      ],
+      "Others": [
+        "task038_qasc_combined_fact.json"
+      ]
+    },
+    "Textual Entailment": {
+      "Classification": [
+        "task936_defeasible_nli_snli_classification.json",
+        "task935_defeasible_nli_atomic_classification.json",
+        "task190_snli_classification.json",
+        "task201_mnli_neutral_classification.json",
+        "task937_defeasible_nli_social_classification.json",
+        "task199_mnli_classification.json",
+        "task202_mnli_contradiction_classification.json",
+        "task1554_scitail_classification.json",
+        "task738_perspectrum_classification.json",
+        "task534_farstail_entailment.json",
+        "task1529_scitail1.1_classification.json",
+        "task200_mnli_entailment_classification.json",
+        "task463_parsinlu_entailment_classification.json",
+        "task1344_glue_entailment_classification.json",
+        "task970_sherliic_causal_relationship.json"
+      ],
+      "Open-Ended": [
+        "task464_parsinlu_entailment_sentence_generation.json"
+      ]
+    },
+    "Sentence Ordering": {
+      "Open-Ended": [
+        "task300_storycloze_order_generation.json",
+        "task217_rocstories_ordering_answer_generation.json",
+        "task218_rocstories_swap_order_answer_generation.json"
+      ]
+    },
+    "Text Completion": {
+      "Open-Ended": [
+        "task453_swag_answer_generation.json",
+        "task215_rocstories_incorrect_answer_generation.json",
+        "task105_story_cloze-rocstories_sentence_generation.json",
+        "task216_rocstories_correct_answer_generation.json",
+        "task455_swag_context_generation.json",
+        "task268_casehold_legal_answer_generation.json",
+        "task299_storycloze_sentence_generation.json",
+        "task1389_hellaswag_completion.json"
+      ],
+      "Classification": [
+        "task221_rocstories_two_choice_classification.json",
+        "task214_rocstories_incorrect_ending_classification.json",
+        "task213_rocstories_correct_ending_classification.json",
+        "task222_rocstories_two_chioce_slotting_classification.json",
+        "task156_codah_classification_adversarial.json"
+      ]
+    },
+    "Stereotype Detection": {
+      "Classification": [
+        "task279_stereoset_classification_stereotype.json",
+        "task316_crows-pairs_classification_stereotype.json",
+        "task320_stereoset_classification_race.json",
+        "task319_stereoset_classification_profession.json"
+      ]
+    },
+    "Entity Generation": {
+      "Open-Ended": [
+        "task471_haspart_answer_generation.json"
+      ]
+    },
+    "Explanation": {
+      "Classification": [
+        "task295_semeval_2020_task4_commonsense_reasoning.json"
+      ],
+      "Open-Ended": [
+        "task192_hotpotqa_sentence_generation.json",
+        "task223_quartz_explanation_generation.json",
+        "task1369_healthfact_sentence_generation.json",
+        "task593_sciq_explanation_generation.json"
+      ]
+    },
+    "Toxic Language Detection": {
+      "Classification": [
+        "task904_hate_speech_offensive_classification.json",
+        "task905_hate_speech_offensive_classification.json",
+        "task839_cdt_classification.json",
+        "task322_jigsaw_classification_threat.json",
+        "task326_jigsaw_classification_obscene.json",
+        "task323_jigsaw_classification_sexually_explicit.json",
+        "task325_jigsaw_classification_identity_attack.json",
+        "task328_jigsaw_classification_insult.json",
+        "task333_hateeval_classification_hate_en.json",
+        "task286_olid_offense_judgment.json",
+        "task327_jigsaw_classification_toxic.json",
+        "task1502_hatexplain_classification.json",
+        "task108_contextualabusedetection_classification.json",
+        "task334_hateeval_classification_hate_es.json",
+        "task608_sbic_sexual_offense_binary_classification.json",
+        "task335_hateeval_classification_aggresive_en.json",
+        "task337_hateeval_classification_individual_en.json",
+        "task609_sbic_potentially_offense_binary_classification.json"
+      ],
+      "Open-Ended": [
+        "task1504_hatexplain_answer_generation.json"
+      ]
+    },
+    "Section Classification": {
+      "Classification": [
+        "task1164_coda19_section_correction_classification.json",
+        "task1163_coda19_section_classification.json"
+      ]
+    },
+    "Mathematics": {
+      "Classification": [
+        "task092_check_prime_classification.json"
+      ],
+      "Others": [
+        "task086_translated_symbol_arithmetic.json",
+        "task085_unnatural_addsub_arithmetic.json",
+        "task087_new_operator_addsub_arithmetic.json",
+        "task090_equation_learner_algebra.json"
+      ]
+    },
+    "Story Composition": {
+      "Open-Ended": [
+        "task071_abductivenli_answer_generation.json",
+        "task072_abductivenli_answer_generation.json",
+        "task068_abductivenli_incorrect_answer_generation.json",
+        "task067_abductivenli_answer_generation.json",
+        "task103_facts2story_long_text_generation.json",
+        "task269_csrg_counterfactual_story_generation.json",
+        "task270_csrg_counterfactual_context_generation.json"
+      ]
+    },
+    "Answerability Classification": {
+      "Classification": [
+        "task232_iirc_link_number_classification.json",
+        "task233_iirc_link_exists_classification.json",
+        "task349_squad2.0_answerable_unanswerable_question_classification.json",
+        "task396_persianqa_classification.json",
+        "task242_tweetqa_classification.json",
+        "task050_multirc_answerability.json",
+        "task290_tellmewhy_question_answerability.json",
+        "task1640_aqa1.0_answerable_unanswerable_question_classification.json",
+        "task1439_doqa_cooking_isanswerable.json"
+      ]
+    },
+    "Fact Verification": {
+      "Classification": [
+        "task403_creak_commonsense_inference.json"
+      ]
+    },
+    "Stance Detection": {
+      "Classification": [
+        "task1646_dataset_card_for_catalonia_independence_corpus_text_classification.json"
+      ]
+    },
+    "Negotiation Strategy Detection": {
+      "Classification": [
+        "task357_casino_classification_negotiation_small_talk.json"
+      ]
+    },
+    "Dialogue Act Recognition": {
+      "Classification": [
+        "task362_spolin_yesand_prompt_response_sub_classification.json",
+        "task1533_daily_dialog_formal_classification.json",
+        "task1534_daily_dialog_question_classification.json",
+        "task879_schema_guided_dstc8_classification.json"
+      ]
+    },
+    "Word Relation Classification": {
+      "Classification": [
+        "task1505_root09_semantic_relation_classification.json",
+        "task1418_bless_semantic_relation_classification.json"
+      ]
+    },
+    "Keyword Tagging": {
+      "Open-Ended": [
+        "task613_politifact_text_generation.json",
+        "task645_summarization.json"
+      ]
+    },
+    "Entity Relation Classification": {
+      "Classification": [
+        "task472_haspart_classification.json"
+      ]
+    },
+    "Paraphrasing": {
+      "Others": [
+        "task177_para-nmt_paraphrasing.json"
+      ],
+      "Open-Ended": [
+        "task132_dais_text_modification.json"
+      ]
+    },
+    "Question Decomposition": {
+      "Others": [
+        "task176_break_decompose_questions.json"
+      ],
+      "Open-Ended": [
+        "task168_strategyqa_question_decomposition.json"
+      ]
+    },
+    "Code to Text": {
+      "Open-Ended": [
+        "task110_logic2text_sentence_generation.json",
+        "task129_scan_long_text_generation_action_command_short.json",
+        "task127_scan_long_text_generation_action_command_all.json"
+      ]
+    },
+    "Grammar Error Detection": {
+      "Classification": [
+        "task089_swap_words_verification.json",
+        "task1346_glue_cola_grammatical_correctness_classification.json"
+      ],
+      "Others": [
+        "task1416_youtube_caption_corrections_incorrect_grammar_classification.json"
+      ]
+    },
+    "Spelling Error Detection": {
+      "Others": [
+        "task088_identify_typo_verification.json"
+      ]
+    },
+    "Word Analogy": {
+      "Classification": [
+        "task1153_bard_analogical_reasoning_affordance.json"
+      ]
+    },
+    "Poem Generation": {
+      "Open-Ended": [
+        "task1711_poki_text_generation.json"
+      ]
+    },
+    "Dialogue State Tracking": {
+      "Classification": [
+        "task1384_deal_or_no_dialog_classification.json"
+      ]
+    },
+    "Grammar Error Correction": {
+      "Open-Ended": [
+        "task1415_youtube_caption_corrections_grammar_correction.json"
+      ]
+    },
+    "MCQA": [
+      "task231_iirc_link_classification.json",
+      "task750_aqua_multiple_choice_answering.json",
+      "task309_race_answer_generation.json",
+      "task310_race_classification.json",
+      "task385_socialiqa_incorrect_answer_generation.json",
+      "task580_socialiqa_answer_generation.json",
+      "task302_record_classification.json",
+      "task1296_wiki_hop_question_answering.json",
+      "task1297_qasc_question_answering.json",
+      "task1420_mathqa_general.json",
+      "task1422_mathqa_physics.json",
+      "task1419_mathqa_gain.json",
+      "task247_dream_answer_generation.json",
+      "task1286_openbookqa_question_answering.json",
+      "task228_arc_answer_generation_easy.json",
+      "task1678_mathqa_answer_selection.json",
+      "task058_multirc_question_answering.json",
+      "task1423_mathqa_geometry.json",
+      "task229_arc_answer_generation_hard.json",
+      "task473_parsinlu_mc_classification.json",
+      "task1421_mathqa_other.json"
+    ]
+  },
+  "from_task": {
+    "task154_tomqa_find_location_hard_noise.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task153_tomqa_find_location_hard_clean.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task152_tomqa_find_location_easy_noise.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task230_iirc_passage_classification.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task380_boolq_yes_no_question.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task151_tomqa_find_location_easy_clean.json": {
+      "category": "Question Answering",
+      "type": "Classification"
+    },
+    "task898_freebase_qa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task002_quoref_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task591_sciq_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task041_qasc_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task080_piqa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task061_ropes_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task237_iirc_answer_from_subtext_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task170_hotpotqa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task582_naturalquestion_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task028_drop_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task615_moviesqa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task238_iirc_answer_from_passage_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task1334_sqac_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task024_cosmosqa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task849_pubmedqa_answer_generation.json": {
+      "category": "Question Answering",
+      "type": "Open-Ended"
+    },
+    "task164_mcscript_question_answering_text.json": {
+      "category": "Question Answering",
+      "type": "Others"
+    },
+    "task049_multirc_questions_needed_to_answer.json": {
+      "category": "Question Answering",
+      "type": "Others"
+    },
+    "task165_mcscript_question_answering_commonsense.json": {
+      "category": "Question Answering",
+      "type": "Others"
+    },
+    "task390_torque_text_span_selection.json": {
+      "category": "Question Answering",
+      "type": "Others"
+    },
+    "task197_mnli_domain_answer_generation.json": {
+      "category": "Text Categorization",
+      "type": "Open-Ended"
+    },
+    "task143_odd-man-out_classification_generate_category.json": {
+      "category": "Text Categorization",
+      "type": "Open-Ended"
+    },
+    "task617_amazonreview_category_text_generation.json": {
+      "category": "Text Categorization",
+      "type": "Open-Ended"
+    },
+    "task633_dbpedia_14_answer_generation.json": {
+      "category": "Text Categorization",
+      "type": "Open-Ended"
+    },
+    "task496_semeval_answer_generation.json": {
+      "category": "Text Categorization",
+      "type": "Open-Ended"
+    },
+    "task1308_amazonreview_category_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task501_scruples_anecdotes_post_type_verification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task204_mnli_same_genre_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task198_mnli_domain_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1187_politifact_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task379_agnews_topic_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task495_semeval_headline_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task521_trivia_question_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1712_poki_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task115_help_advice_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1490_bengali_personal_hate_speech_binary_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task680_hope_edi_tamil_text_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1541_agnews_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task679_hope_edi_english_text_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task280_stereoset_classification_stereotype_type.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1493_bengali_geopolitical_hate_speech_binary_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1491_bengali_political_hate_speech_binary_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1492_bengali_religious_hate_speech_binary_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task629_dbpedia_14_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task1434_head_qa_classification.json": {
+      "category": "Text Categorization",
+      "type": "Classification"
+    },
+    "task348_squad2.0_unanswerable_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task235_iirc_question_from_subtext_answer_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task032_winogrande_question_generation_person.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task581_socialiqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task040_qasc_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task594_sciq_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task236_iirc_question_from_passage_answer_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task191_hotpotqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task649_race_blank_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task1335_sqac_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task074_squad1.1_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task023_cosmosqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task847_pubmedqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task845_pubmedqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task311_race_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task184_break_generate_question.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task301_record_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task240_tweetqa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task246_dream_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task568_circa_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task026_drop_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task1326_qa_zre_question_generation_from_answer.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task182_duorc_question_generation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task1325_qa_zre_question_generation_on_subject_relation.json": {
+      "category": "Question Generation",
+      "type": "Open-Ended"
+    },
+    "task030_winogrande_full_person.json": {
+      "category": "Question Generation",
+      "type": "Others"
+    },
+    "task128_scan_structured_text_generation_command_action_short.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task126_scan_structured_text_generation_command_action_all.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task210_logic2text_structured_text_generation.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task130_scan_structured_text_generation_command_action_long.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task077_splash_explanation_to_sql.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task076_splash_correcting_sql_mistake.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task107_splash_question_to_sql.json": {
+      "category": "Text to Code",
+      "type": "Open-Ended"
+    },
+    "task212_logic2text_classification.json": {
+      "category": "Text to Code",
+      "type": "Classification"
+    },
+    "task211_logic2text_classification.json": {
+      "category": "Text to Code",
+      "type": "Classification"
+    },
+    "task956_leetcode_420_strong_password_check.json": {
+      "category": "Text to Code",
+      "type": "Classification"
+    },
+    "task441_eng_guj_parallel_corpus_gu-en_language_identification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task427_hindienglish_corpora_hi-en_language_identification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task533_europarl_es-en_language_identification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task447_opus_paracrawl_classification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task1618_cc_alligned_classify_tel_eng.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task1621_menyo20k-mt_en_yo_language_identification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task896_miam_language_classification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task1370_newscomm_classification.json": {
+      "category": "Language Identification",
+      "type": "Classification"
+    },
+    "task425_hindienglish_corpora_en_hi_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1128_alt_th_ja_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task424_hindienglish_corpora_hi_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1119_alt_fil_ja_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task312_europarl_sv_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1122_alt_khm_ja_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task313_europarl_en_sv_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1116_alt_id_ja_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task436_alt_ja_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1115_alt_ja_id_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1121_alt_ja_khm_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1125_alt_lo_ja_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1124_alt_ja_lo_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1118_alt_ja_fil_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1127_alt_ja_th_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task660_mizan_fa_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task658_tep_en_fa_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task663_global_voices_en_fa_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task655_bible_en_fa_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task654_bible_fa_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task659_tep_fa_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task650_opus100_ar_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task661_mizan_en_fa_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task651_opus100_en_ar_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task662_global_voices_fa_en_translation.json": {
+      "category": "Translation",
+      "type": "Open-Ended"
+    },
+    "task1309_amazonreview_summary_classification.json": {
+      "category": "Summarization",
+      "type": "Classification"
+    },
+    "task618_amazonreview_summary_text_generation.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task511_reddit_tifu_long_text_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task589_amazonfood_summary_text_generation.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1291_multi_news_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1290_xsum_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1357_xlsum_summary_generation.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1658_billsum_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task668_extreme_abstract_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1499_dstc3_summarization.json": {
+      "category": "Summarization",
+      "type": "Open-Ended"
+    },
+    "task1728_web_nlg_data_to_text.json": {
+      "category": "Data to Text",
+      "type": "Others"
+    },
+    "task1598_nyc_long_text_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task1409_dart_text_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task102_commongen_sentence_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task677_ollie_sentence_answer_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task1407_dart_question_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task1631_openpi_answer_generation.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task957_e2e_nlg_text_generation_generate.json": {
+      "category": "Data to Text",
+      "type": "Open-Ended"
+    },
+    "task066_timetravel_binary_consistency_classification.json": {
+      "category": "Coherence Classification",
+      "type": "Classification"
+    },
+    "task069_abductivenli_classification.json": {
+      "category": "Coherence Classification",
+      "type": "Classification"
+    },
+    "task070_abductivenli_incorrect_classification.json": {
+      "category": "Coherence Classification",
+      "type": "Classification"
+    },
+    "task065_timetravel_consistent_sentence_classification.json": {
+      "category": "Coherence Classification",
+      "type": "Classification"
+    },
+    "task298_storycloze_correct_end_classification.json": {
+      "category": "Coherence Classification",
+      "type": "Classification"
+    },
+    "task292_storycommonsense_character_text_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task676_ollie_relationship_answer_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task678_ollie_actual_relationship_answer_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task578_curiosity_dialogs_answer_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task684_online_privacy_policy_text_information_type_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task683_online_privacy_policy_text_purpose_answer_generation.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task958_e2e_nlg_text_generation_parse.json": {
+      "category": "Information Extraction",
+      "type": "Open-Ended"
+    },
+    "task1410_dart_relationship_extraction.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task747_glucose_cause_emotion_detection.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task748_glucose_reverse_cause_event_detection.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task749_glucose_reverse_cause_emotion_detection.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task1597_nyc_slot_filling.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task1510_evalution_relation_extraction.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task1411_dart_subject_identification.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task1413_dart_object_identification.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task388_torque_token_classification.json": {
+      "category": "Information Extraction",
+      "type": "Others"
+    },
+    "task456_matres_intention_classification.json": {
+      "category": "Information Extraction",
+      "type": "Classification"
+    },
+    "task227_clariq_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task900_freebase_qa_category_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task046_miscellaneous_question_typing.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task1289_trec_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task673_google_wellformed_query_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task384_socialiqa_question_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task834_mathdataset_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task474_parsinlu_mc_classification.json": {
+      "category": "Question Understanding",
+      "type": "Classification"
+    },
+    "task899_freebase_qa_topic_generation.json": {
+      "category": "Question Understanding",
+      "type": "Open-Ended"
+    },
+    "task1328_qa_zre_relation_generation_from_question.json": {
+      "category": "Question Understanding",
+      "type": "Open-Ended"
+    },
+    "task027_drop_answer_type_generation.json": {
+      "category": "Question Understanding",
+      "type": "Open-Ended"
+    },
+    "task044_essential_terms_identifying_essential_words.json": {
+      "category": "Question Understanding",
+      "type": "Others"
+    },
+    "task500_scruples_anecdotes_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1161_coda19_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task219_rocstories_title_answer_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1659_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task510_reddit_tifu_title_summarization.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task569_recipe_nlg_text_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1356_xlsum_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1358_xlsum_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1586_scifact_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task418_persent_title_generation.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task1540_parsed_pdfs_summarization.json": {
+      "category": "Title Generation",
+      "type": "Open-Ended"
+    },
+    "task220_rocstories_title_classification.json": {
+      "category": "Title Generation",
+      "type": "Classification"
+    },
+    "task1342_amazon_us_reviews_title.json": {
+      "category": "Title Generation",
+      "type": "Others"
+    },
+    "task294_storycommonsense_motiv_text_generation.json": {
+      "category": "Intent Identification",
+      "type": "Open-Ended"
+    },
+    "task848_pubmedqa_classification.json": {
+      "category": "Intent Identification",
+      "type": "Classification"
+    },
+    "task573_air_dialogue_classification.json": {
+      "category": "Intent Identification",
+      "type": "Classification"
+    },
+    "task1211_atomic_classification_hassubevent.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1203_atomic_classification_xreact.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1199_atomic_classification_xattr.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1206_atomic_classification_isbefore.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1201_atomic_classification_xintent.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1212_atomic_classification_hasproperty.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1209_atomic_classification_objectuse.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1207_atomic_classification_atlocation.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1205_atomic_classification_isafter.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1196_atomic_classification_oeffect.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1197_atomic_classification_oreact.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1202_atomic_classification_xneed.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1198_atomic_classification_owant.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1200_atomic_classification_xeffect.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1214_atomic_classification_xwant.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1215_atomic_classification_capableof.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1204_atomic_classification_hinderedby.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task291_semeval_2020_task4_commonsense_validation.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1210_atomic_classification_madeupof.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1213_atomic_classification_desires.json": {
+      "category": "Commonsense Classification",
+      "type": "Classification"
+    },
+    "task1312_amazonreview_polarity_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task1310_amazonreview_rating_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task518_emo_different_dialogue_emotions.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task586_amazonfood_polarity_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task475_yelp_polarity_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task195_sentiment140_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task284_imdb_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task1343_amazon_us_reviews_rating.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task588_amazonfood_rating_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task493_review_polarity_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task423_persent_document_sentiment_verification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task422_persent_sentence_sentiment_verification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task363_sst2_polarity_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task1292_yelp_review_full_text_categorization.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task421_persent_sentence_sentiment_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task929_products_reviews_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task517_emo_classify_emotion_of_dialogue.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task587_amazonfood_polarity_correction_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task1536_daily_dialog_happiness_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task1338_peixian_equity_evaluation_corpus_sentiment_classifier.json": {
+      "category": "Sentiment Analysis",
+      "type": "Classification"
+    },
+    "task293_storycommonsense_emotion_text_generation.json": {
+      "category": "Sentiment Analysis",
+      "type": "Open-Ended"
+    },
+    "task196_sentiment140_answer_generation.json": {
+      "category": "Sentiment Analysis",
+      "type": "Open-Ended"
+    },
+    "task285_imdb_answer_generation.json": {
+      "category": "Sentiment Analysis",
+      "type": "Open-Ended"
+    },
+    "task494_review_polarity_answer_generation.json": {
+      "category": "Sentiment Analysis",
+      "type": "Open-Ended"
+    },
+    "task1532_daily_dialog_emotion_classification.json": {
+      "category": "Sentiment Analysis",
+      "type": "Others"
+    },
+    "task033_winogrande_answer_generation.json": {
+      "category": "Coreference Resolution",
+      "type": "Open-Ended"
+    },
+    "task1391_winogrande_easy_answer_generation.json": {
+      "category": "Coreference Resolution",
+      "type": "Open-Ended"
+    },
+    "task330_gap_answer_generation.json": {
+      "category": "Coreference Resolution",
+      "type": "Open-Ended"
+    },
+    "task304_numeric_fused_head_resolution.json": {
+      "category": "Coreference Resolution",
+      "type": "Others"
+    },
+    "task401_numeric_fused_head_reference.json": {
+      "category": "Coreference Resolution",
+      "type": "Others"
+    },
+    "task329_gap_classification.json": {
+      "category": "Coreference Resolution",
+      "type": "Classification"
+    },
+    "task133_winowhy_reason_plausibility_detection.json": {
+      "category": "Coreference Resolution",
+      "type": "Classification"
+    },
+    "task440_eng_guj_parallel_corpus_gu-en_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1285_kpa_keypoint_matching.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task314_europarl_sv-en_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task273_europarl_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task315_europarl_sv-en_language_identification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task426_hindienglish_corpora_hi-en_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1287_glue_qqp_paraphrasing.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task400_paws_paraphrase_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task532_europarl_en-es_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1162_coda19_title_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1408_dart_similarity_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task566_circa_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1587_scifact_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task465_parsinlu_qqp_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1288_glue_mrpc_paraphrasing.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task1347_glue_sts-b_similarity_classification.json": {
+      "category": "Text Matching",
+      "type": "Classification"
+    },
+    "task289_gigaword_summarization.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task1129_alt_ja_th_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task1123_alt_ja_khm_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task1120_alt_ja_fil_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task1126_alt_ja_lo_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task1117_alt_ja_id_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task437_alt_en_ja_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task434_alt_en_hi_answer_generation.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task590_amazonfood_summary_correction_classification.json": {
+      "category": "Text Matching",
+      "type": "Open-Ended"
+    },
+    "task413_mickey_en_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task412_mickey_zh_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task408_mickey_it_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task415_mickey_bg_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task407_mickey_hi_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task416_mickey_de_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task409_mickey_nl_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task411_mickey_vi_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task410_mickey_ru_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task406_mickey_fr_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task417_mickey_es_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task414_mickey_ar_sentence_perturbation_generation.json": {
+      "category": "Sentence Perturbation",
+      "type": "Open-Ended"
+    },
+    "task614_glucose_cause_event_detection.json": {
+      "category": "Cause Effect Classification",
+      "type": "Others"
+    },
+    "task392_inverse_causal_relationship.json": {
+      "category": "Cause Effect Classification",
+      "type": "Classification"
+    },
+    "task391_causal_relationship.json": {
+      "category": "Cause Effect Classification",
+      "type": "Classification"
+    },
+    "task039_qasc_find_overlapping_words.json": {
+      "category": "Overlap Extraction",
+      "type": "Others"
+    },
+    "task579_socialiqa_classification.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task846_pubmedqa_classification.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task1392_superglue_multirc_answer_verification.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task241_tweetqa_classification.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task057_multirc_classify_incorrect_answer.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task1294_wiki_qa_answer_verification.json": {
+      "category": "Answer Verification",
+      "type": "Classification"
+    },
+    "task672_nummersense.json": {
+      "category": "Fill in The Blank",
+      "type": "Classification"
+    },
+    "task945_wiki_cloze_bn_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task953_wiki_cloze_ta_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task947_wiki_cloze_hi_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task950_wiki_cloze_mr_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task949_wiki_cloze_ml_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task954_wiki_cloze_te_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task948_wiki_cloze_kn_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task946_wiki_cloze_gu_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task952_wiki_cloze_pa_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task944_wiki_cloze_as_multiple_choice_question_answering.json": {
+      "category": "Fill in The Blank",
+      "type": "Others"
+    },
+    "task1360_numer_sense_multiple_choice_qa_generation.json": {
+      "category": "Fill in The Blank",
+      "type": "Open-Ended"
+    },
+    "task1359_numer_sense_answer_generation.json": {
+      "category": "Fill in The Blank",
+      "type": "Open-Ended"
+    },
+    "task1217_atomic_answer_generation.json": {
+      "category": "Fill in The Blank",
+      "type": "Open-Ended"
+    },
+    "task572_recipe_nlg_text_generation.json": {
+      "category": "Fill in The Blank",
+      "type": "Open-Ended"
+    },
+    "task141_odd-man-out_classification_category.json": {
+      "category": "Word Semantics",
+      "type": "Others"
+    },
+    "task142_odd-man-out_classification_no_category.json": {
+      "category": "Word Semantics",
+      "type": "Others"
+    },
+    "task1508_wordnet_antonyms.json": {
+      "category": "Word Semantics",
+      "type": "Others"
+    },
+    "task1340_msr_text_compression_compression.json": {
+      "category": "Sentence Compression",
+      "type": "Open-Ended"
+    },
+    "task1336_peixian_equity_evaluation_corpus_gender_classifier.json": {
+      "category": "Gender Classification",
+      "type": "Classification"
+    },
+    "task350_winomt_classification_gender_identifiability_pro.json": {
+      "category": "Gender Classification",
+      "type": "Classification"
+    },
+    "task351_winomt_classification_gender_identifiability_anti.json": {
+      "category": "Gender Classification",
+      "type": "Classification"
+    },
+    "task454_swag_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task042_qasc_incorrect_option_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task025_cosmosqa_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task592_sciq_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task081_piqa_wrong_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task303_record_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task287_casehold_legal_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task283_dream_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task331_gap_incorrect_answer_generation.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Open-Ended"
+    },
+    "task1663_cedr_ru_incorrect_classification.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Classification"
+    },
+    "task055_multirc_write_incorrect_answer.json": {
+      "category": "Wrong Candidate Generation",
+      "type": "Others"
+    },
+    "task305_jeopardy_answer_generation_normal.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task924_event2mind_word_generation.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task1596_event2mind_text_generation_2.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task306_jeopardy_answer_generation_double.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task308_jeopardy_answer_generation_all.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task1595_event2mind_text_generation_1.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task169_strategyqa_sentence_generation.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task307_jeopardy_answer_generation_final.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task567_circa_text_generation.json": {
+      "category": "Misc.",
+      "type": "Open-Ended"
+    },
+    "task1507_boolean_temporal_reasoning.json": {
+      "category": "Misc.",
+      "type": "Classification"
+    },
+    "task502_scruples_anecdotes_whoiswrong_verification.json": {
+      "category": "Ethics Classification",
+      "type": "Classification"
+    },
+    "task508_scruples_dilemmas_more_ethical_isidentifiable.json": {
+      "category": "Ethics Classification",
+      "type": "Classification"
+    },
+    "task106_scruples_ethical_judgment.json": {
+      "category": "Ethics Classification",
+      "type": "Classification"
+    },
+    "task498_scruples_anecdotes_whoiswrong_classification.json": {
+      "category": "Ethics Classification",
+      "type": "Classification"
+    },
+    "task224_scruples_anecdotes_ethical_judgment.json": {
+      "category": "Ethics Classification",
+      "type": "Classification"
+    },
+    "task571_recipe_nlg_ner_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task570_recipe_nlg_ner_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task1545_conll2002_person_name_extraction_answer_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task1546_conll2002_location_name_extraction_answer_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task1544_conll2002_named_entity_recognition_answer_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task419_persent_answer_generation.json": {
+      "category": "Named Entity Recognition",
+      "type": "Open-Ended"
+    },
+    "task610_conllpp_ner.json": {
+      "category": "Named Entity Recognition",
+      "type": "Others"
+    },
+    "task1447_drug_extraction_ade.json": {
+      "category": "Named Entity Recognition",
+      "type": "Others"
+    },
+    "task574_air_dialogue_sentence_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task1729_personachat_generate_next.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task576_curiosity_dialogs_answer_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task360_spolin_yesand_response_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task565_circa_answer_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task1603_smcalflow_sentence_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task1714_convai3_sentence_generation.json": {
+      "category": "Dialogue Generation",
+      "type": "Open-Ended"
+    },
+    "task611_mutual_multi_turn_dialogue.json": {
+      "category": "Dialogue Generation",
+      "type": "Classification"
+    },
+    "task361_spolin_yesand_prompt_response_classification.json": {
+      "category": "Dialogue Generation",
+      "type": "Classification"
+    },
+    "task1730_personachat_choose_next.json": {
+      "category": "Dialogue Generation",
+      "type": "Others"
+    },
+    "task616_cola_classification.json": {
+      "category": "Text Quality Evaluation",
+      "type": "Classification"
+    },
+    "task1283_hrngo_quality_classification.json": {
+      "category": "Text Quality Evaluation",
+      "type": "Classification"
+    },
+    "task1186_nne_hrngo_classification.json": {
+      "category": "Text Quality Evaluation",
+      "type": "Classification"
+    },
+    "task675_google_wellformed_query_sentence_generation.json": {
+      "category": "Text Quality Evaluation",
+      "type": "Open-Ended"
+    },
+    "task674_google_wellformed_query_sentence_generation.json": {
+      "category": "Text Quality Evaluation",
+      "type": "Open-Ended"
+    },
+    "task756_find_longert_substring_and_return_all_unique_alphabets_in_it.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task507_position_of_all_numerical_elements_in_list.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task755_find_longest_substring_and_replace_its_sorted_lowercase_version_in_both_lists.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task372_synthetic_palindrome_numbers.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task267_concatenate_and_reverse_all_elements_from_index_i_to_j.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task366_synthetic_return_primes.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task605_find_the_longest_common_subsequence_in_two_lists.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task376_reverse_order_of_words.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task851_synthetic_multiply_evens.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task160_replace_letter_in_a_sentence.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task600_find_the_longest_common_substring_in_two_strings.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task373_synthetic_round_tens_place.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task101_reverse_and_concatenate_all_elements_from_index_i_to_j.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task378_reverse_words_of_given_length.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task1444_round_power_of_two.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task852_synthetic_multiply_odds.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task064_all_elements_except_first_i.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task1542_every_ith_element_from_starting.json": {
+      "category": "Program Execution",
+      "type": "Others"
+    },
+    "task1445_closest_integers.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task157_count_vowels_and_consonants.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task504_count_all_alphabetical_elements_in_list.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task523_find_if_numbers_or_alphabets_are_more_in_list.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task505_count_all_numerical_elements_in_list.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task159_check_frequency_of_words_in_sentence_pair.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task113_count_frequency_of_letter.json": {
+      "category": "Program Execution",
+      "type": "Classification"
+    },
+    "task112_asset_simple_sentence_identification.json": {
+      "category": "Text Simplification",
+      "type": "Classification"
+    },
+    "task934_turk_simplification.json": {
+      "category": "Text Simplification",
+      "type": "Open-Ended"
+    },
+    "task111_asset_sentence_simplification.json": {
+      "category": "Text Simplification",
+      "type": "Open-Ended"
+    },
+    "task1345_glue_qqp_question_paraprashing.json": {
+      "category": "Question Rewriting",
+      "type": "Others"
+    },
+    "task034_winogrande_question_modification_object.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task035_winogrande_question_modification_person.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task1195_disflqa_disfluent_to_fluent_conversion.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task670_ambigqa_question_generation.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task671_ambigqa_text_generation.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task402_grailqa_paraphrase_generation.json": {
+      "category": "Question Rewriting",
+      "type": "Open-Ended"
+    },
+    "task577_curiosity_dialogs_classification.json": {
+      "category": "Speaker Identification",
+      "type": "Classification"
+    },
+    "task638_multi_woz_classification.json": {
+      "category": "Speaker Identification",
+      "type": "Classification"
+    },
+    "task575_air_dialogue_classification.json": {
+      "category": "Speaker Identification",
+      "type": "Classification"
+    },
+    "task1599_smcalflow_classification.json": {
+      "category": "Speaker Identification",
+      "type": "Classification"
+    },
+    "task515_senteval_odd_word_out.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task114_is_the_given_word_longest.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task430_senteval_subject_count.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task516_senteval_conjoints_inversion.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task428_senteval_inversion.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task431_senteval_object_count.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task429_senteval_tense.json": {
+      "category": "Linguistic Probing",
+      "type": "Classification"
+    },
+    "task346_hybridqa_classification.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task1167_penn_treebank_coarse_pos_tagging.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task1168_brown_coarse_pos_tagging.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task155_count_nouns_verbs.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task583_udeps_eng_coarse_pos_tagging.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task584_udeps_eng_fine_pos_tagging.json": {
+      "category": "Pos Tagging",
+      "type": "Classification"
+    },
+    "task345_hybridqa_answer_generation.json": {
+      "category": "Pos Tagging",
+      "type": "Open-Ended"
+    },
+    "task382_hybridqa_answer_generation.json": {
+      "category": "Pos Tagging",
+      "type": "Open-Ended"
+    },
+    "task347_hybridqa_incorrect_answer_generation.json": {
+      "category": "Pos Tagging",
+      "type": "Open-Ended"
+    },
+    "task1543_conll2002_parts_of_speech_tagging_answer_generation.json": {
+      "category": "Pos Tagging",
+      "type": "Open-Ended"
+    },
+    "task189_snli_neutral_to_contradiction_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task188_snli_neutral_to_entailment_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task186_snli_contradiction_to_entailment_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task185_snli_contradiction_to_neutral_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task037_qasc_generate_related_fact.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task187_snli_entailment_to_contradiction_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task203_mnli_sentence_generation.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task184_snli_entailment_to_neutral_text_modification.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task1368_healthfact_sentence_generation.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task1556_scitail_passage_generation.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task1364_hans_answer_generation.json": {
+      "category": "Sentence Composition",
+      "type": "Open-Ended"
+    },
+    "task038_qasc_combined_fact.json": {
+      "category": "Sentence Composition",
+      "type": "Others"
+    },
+    "task936_defeasible_nli_snli_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task935_defeasible_nli_atomic_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task190_snli_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task201_mnli_neutral_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task937_defeasible_nli_social_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task199_mnli_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task202_mnli_contradiction_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task1554_scitail_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task738_perspectrum_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task534_farstail_entailment.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task1529_scitail1.1_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task200_mnli_entailment_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task463_parsinlu_entailment_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task1344_glue_entailment_classification.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task970_sherliic_causal_relationship.json": {
+      "category": "Textual Entailment",
+      "type": "Classification"
+    },
+    "task464_parsinlu_entailment_sentence_generation.json": {
+      "category": "Textual Entailment",
+      "type": "Open-Ended"
+    },
+    "task300_storycloze_order_generation.json": {
+      "category": "Sentence Ordering",
+      "type": "Open-Ended"
+    },
+    "task217_rocstories_ordering_answer_generation.json": {
+      "category": "Sentence Ordering",
+      "type": "Open-Ended"
+    },
+    "task218_rocstories_swap_order_answer_generation.json": {
+      "category": "Sentence Ordering",
+      "type": "Open-Ended"
+    },
+    "task453_swag_answer_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task215_rocstories_incorrect_answer_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task105_story_cloze-rocstories_sentence_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task216_rocstories_correct_answer_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task455_swag_context_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task268_casehold_legal_answer_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task299_storycloze_sentence_generation.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task1389_hellaswag_completion.json": {
+      "category": "Text Completion",
+      "type": "Open-Ended"
+    },
+    "task221_rocstories_two_choice_classification.json": {
+      "category": "Text Completion",
+      "type": "Classification"
+    },
+    "task214_rocstories_incorrect_ending_classification.json": {
+      "category": "Text Completion",
+      "type": "Classification"
+    },
+    "task213_rocstories_correct_ending_classification.json": {
+      "category": "Text Completion",
+      "type": "Classification"
+    },
+    "task222_rocstories_two_chioce_slotting_classification.json": {
+      "category": "Text Completion",
+      "type": "Classification"
+    },
+    "task156_codah_classification_adversarial.json": {
+      "category": "Text Completion",
+      "type": "Classification"
+    },
+    "task279_stereoset_classification_stereotype.json": {
+      "category": "Stereotype Detection",
+      "type": "Classification"
+    },
+    "task316_crows-pairs_classification_stereotype.json": {
+      "category": "Stereotype Detection",
+      "type": "Classification"
+    },
+    "task320_stereoset_classification_race.json": {
+      "category": "Stereotype Detection",
+      "type": "Classification"
+    },
+    "task319_stereoset_classification_profession.json": {
+      "category": "Stereotype Detection",
+      "type": "Classification"
+    },
+    "task471_haspart_answer_generation.json": {
+      "category": "Entity Generation",
+      "type": "Open-Ended"
+    },
+    "task295_semeval_2020_task4_commonsense_reasoning.json": {
+      "category": "Explanation",
+      "type": "Classification"
+    },
+    "task192_hotpotqa_sentence_generation.json": {
+      "category": "Explanation",
+      "type": "Open-Ended"
+    },
+    "task223_quartz_explanation_generation.json": {
+      "category": "Explanation",
+      "type": "Open-Ended"
+    },
+    "task1369_healthfact_sentence_generation.json": {
+      "category": "Explanation",
+      "type": "Open-Ended"
+    },
+    "task593_sciq_explanation_generation.json": {
+      "category": "Explanation",
+      "type": "Open-Ended"
+    },
+    "task904_hate_speech_offensive_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task905_hate_speech_offensive_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task839_cdt_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task322_jigsaw_classification_threat.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task326_jigsaw_classification_obscene.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task323_jigsaw_classification_sexually_explicit.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task325_jigsaw_classification_identity_attack.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task328_jigsaw_classification_insult.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task333_hateeval_classification_hate_en.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task286_olid_offense_judgment.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task327_jigsaw_classification_toxic.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task1502_hatexplain_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task108_contextualabusedetection_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task334_hateeval_classification_hate_es.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task608_sbic_sexual_offense_binary_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task335_hateeval_classification_aggresive_en.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task337_hateeval_classification_individual_en.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task609_sbic_potentially_offense_binary_classification.json": {
+      "category": "Toxic Language Detection",
+      "type": "Classification"
+    },
+    "task1504_hatexplain_answer_generation.json": {
+      "category": "Toxic Language Detection",
+      "type": "Open-Ended"
+    },
+    "task1164_coda19_section_correction_classification.json": {
+      "category": "Section Classification",
+      "type": "Classification"
+    },
+    "task1163_coda19_section_classification.json": {
+      "category": "Section Classification",
+      "type": "Classification"
+    },
+    "task092_check_prime_classification.json": {
+      "category": "Mathematics",
+      "type": "Classification"
+    },
+    "task086_translated_symbol_arithmetic.json": {
+      "category": "Mathematics",
+      "type": "Others"
+    },
+    "task085_unnatural_addsub_arithmetic.json": {
+      "category": "Mathematics",
+      "type": "Others"
+    },
+    "task087_new_operator_addsub_arithmetic.json": {
+      "category": "Mathematics",
+      "type": "Others"
+    },
+    "task090_equation_learner_algebra.json": {
+      "category": "Mathematics",
+      "type": "Others"
+    },
+    "task071_abductivenli_answer_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task072_abductivenli_answer_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task068_abductivenli_incorrect_answer_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task067_abductivenli_answer_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task103_facts2story_long_text_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task269_csrg_counterfactual_story_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task270_csrg_counterfactual_context_generation.json": {
+      "category": "Story Composition",
+      "type": "Open-Ended"
+    },
+    "task232_iirc_link_number_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task233_iirc_link_exists_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task349_squad2.0_answerable_unanswerable_question_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task396_persianqa_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task242_tweetqa_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task050_multirc_answerability.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task290_tellmewhy_question_answerability.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task1640_aqa1.0_answerable_unanswerable_question_classification.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task1439_doqa_cooking_isanswerable.json": {
+      "category": "Answerability Classification",
+      "type": "Classification"
+    },
+    "task403_creak_commonsense_inference.json": {
+      "category": "Fact Verification",
+      "type": "Classification"
+    },
+    "task1646_dataset_card_for_catalonia_independence_corpus_text_classification.json": {
+      "category": "Stance Detection",
+      "type": "Classification"
+    },
+    "task357_casino_classification_negotiation_small_talk.json": {
+      "category": "Negotiation Strategy Detection",
+      "type": "Classification"
+    },
+    "task362_spolin_yesand_prompt_response_sub_classification.json": {
+      "category": "Dialogue Act Recognition",
+      "type": "Classification"
+    },
+    "task1533_daily_dialog_formal_classification.json": {
+      "category": "Dialogue Act Recognition",
+      "type": "Classification"
+    },
+    "task1534_daily_dialog_question_classification.json": {
+      "category": "Dialogue Act Recognition",
+      "type": "Classification"
+    },
+    "task879_schema_guided_dstc8_classification.json": {
+      "category": "Dialogue Act Recognition",
+      "type": "Classification"
+    },
+    "task1505_root09_semantic_relation_classification.json": {
+      "category": "Word Relation Classification",
+      "type": "Classification"
+    },
+    "task1418_bless_semantic_relation_classification.json": {
+      "category": "Word Relation Classification",
+      "type": "Classification"
+    },
+    "task613_politifact_text_generation.json": {
+      "category": "Keyword Tagging",
+      "type": "Open-Ended"
+    },
+    "task645_summarization.json": {
+      "category": "Keyword Tagging",
+      "type": "Open-Ended"
+    },
+    "task472_haspart_classification.json": {
+      "category": "Entity Relation Classification",
+      "type": "Classification"
+    },
+    "task177_para-nmt_paraphrasing.json": {
+      "category": "Paraphrasing",
+      "type": "Others"
+    },
+    "task132_dais_text_modification.json": {
+      "category": "Paraphrasing",
+      "type": "Open-Ended"
+    },
+    "task176_break_decompose_questions.json": {
+      "category": "Question Decomposition",
+      "type": "Others"
+    },
+    "task168_strategyqa_question_decomposition.json": {
+      "category": "Question Decomposition",
+      "type": "Open-Ended"
+    },
+    "task110_logic2text_sentence_generation.json": {
+      "category": "Code to Text",
+      "type": "Open-Ended"
+    },
+    "task129_scan_long_text_generation_action_command_short.json": {
+      "category": "Code to Text",
+      "type": "Open-Ended"
+    },
+    "task127_scan_long_text_generation_action_command_all.json": {
+      "category": "Code to Text",
+      "type": "Open-Ended"
+    },
+    "task089_swap_words_verification.json": {
+      "category": "Grammar Error Detection",
+      "type": "Classification"
+    },
+    "task1346_glue_cola_grammatical_correctness_classification.json": {
+      "category": "Grammar Error Detection",
+      "type": "Classification"
+    },
+    "task1416_youtube_caption_corrections_incorrect_grammar_classification.json": {
+      "category": "Grammar Error Detection",
+      "type": "Others"
+    },
+    "task088_identify_typo_verification.json": {
+      "category": "Spelling Error Detection",
+      "type": "Others"
+    },
+    "task1153_bard_analogical_reasoning_affordance.json": {
+      "category": "Word Analogy",
+      "type": "Classification"
+    },
+    "task1711_poki_text_generation.json": {
+      "category": "Poem Generation",
+      "type": "Open-Ended"
+    },
+    "task1384_deal_or_no_dialog_classification.json": {
+      "category": "Dialogue State Tracking",
+      "type": "Classification"
+    },
+    "task1415_youtube_caption_corrections_grammar_correction.json": {
+      "category": "Grammar Error Correction",
+      "type": "Open-Ended"
+    },
+    "task231_iirc_link_classification.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task750_aqua_multiple_choice_answering.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task309_race_answer_generation.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task310_race_classification.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task385_socialiqa_incorrect_answer_generation.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task580_socialiqa_answer_generation.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task302_record_classification.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1296_wiki_hop_question_answering.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1297_qasc_question_answering.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1420_mathqa_general.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1422_mathqa_physics.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1419_mathqa_gain.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task247_dream_answer_generation.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1286_openbookqa_question_answering.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task228_arc_answer_generation_easy.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1678_mathqa_answer_selection.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task058_multirc_question_answering.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1423_mathqa_geometry.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task229_arc_answer_generation_hard.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task473_parsinlu_mc_classification.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    },
+    "task1421_mathqa_other.json": {
+      "category": "MCQA",
+      "type": "MCQA"
+    }
+  }
+}
