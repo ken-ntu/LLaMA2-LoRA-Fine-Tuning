@@ -10,8 +10,12 @@ parser.add_argument("-t",
 parser.add_argument("-m",
                     "--multi_task_type",
                     type=str,
-                    choices=["mix", "continual", "ties", "dare_ties", "dare_linear", "mix_ref_merge", "con_ref_merge"],
+                    choices=["mix", "continual", "ties", "dare_ties", "dare_linear", "mix_ref_merge", "con_ref_merge", "ties_after_prune"],
                     help="identify if this is a multi-task baseline and whether the type of the multi-task baseline is")
+parser.add_argument("--after_prune",
+                    action="store_true",
+                    help="check whether evaluate on condition: re-train after pruning",
+                    )
 args = parser.parse_args()
 
 import os
@@ -128,7 +132,7 @@ else:
 if not os.path.exists(OUTPUT_DIR): 
     os.mkdir(OUTPUT_DIR)
 
-if args.multi_task_type not in ['ties', 'dare_ties', 'dare_linear']:
+if args.multi_task_type not in ['ties', 'dare_ties', 'dare_linear','ties_after_prune']:
   with open(TRAIN_SET_PATH, "w", encoding = "utf-8") as f:
     json.dump(train_set, f, indent = 2, ensure_ascii = False)
   with open(VAL_SET_PATH, "w", encoding = "utf-8") as f:
