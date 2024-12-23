@@ -180,5 +180,10 @@ def sari_score (ssent, csent, rsents) :
 
     return {
         'SARI': finalscore,
+	'ssent': ssent,
+	'csent': csent,
+	'rsents': rsents
     }
 
+
+print(sari_score("I have an apple.", "I", ["I have an apple."]))
