@@ -37,6 +37,8 @@ preprocessor_dict = {
     },
     "Open-Ended": {
         "text-simplification6000": text_simp_preprocessor,
+        "text-simplification10k": text_simp_preprocessor,
+        "text-simplification16k": text_simp_preprocessor,
         "Default": nil_preprocessor,
     },
     "Classification": {

@@ -60,11 +60,41 @@ def text_simplification_three_shot_prompt(task_name, instruction, input, example
     for shot in text_simplification_shots:
         _complex = shot["Complex"]
         _simple = shot["Simple"]
-        user_prompt += f"Complex: {_complex}\nSimple: {_simple}\n\n"
+        user_prompt += f"Complex: {_complex}\nSimple: {_simple}\n"
     
     user_prompt += f"Complex: {input}\nSimple: "
 
-    return f"{sys_msg}\n\n{user_prompt}" 
+    return f"{sys_msg}\n{user_prompt}" 
+
+def text_simplification_three_shot_prompt_chat(task_name, instruction, input, examples=None):
+    sys_msg = instruction
+
+    user_prompt = ""
+    '''
+    if examples != None:
+        text_simplification_shots = []
+        for example in examples:
+            text_simplification_shots.append({
+                "Complex": example["input"],
+                "Simple": example["output"],
+            })
+    else:
+        text_simplification_shots = [text_simplification_shot1, text_simplification_shot2, text_simplification_shot3]
+
+    for shot in text_simplification_shots:
+        _complex = shot["Complex"]
+        _simple = shot["Simple"]
+        user_prompt += f"Complex: {_complex}\nSimple: {_simple}\n"
+    '''
+    user_prompt += f"Complex: {input}"
+
+    prompt_template=f"""<s>[INST] <<SYS>>
+{sys_msg}
+<</SYS>>
+
+{user_prompt}[/INST] """
+
+    return prompt_template
 
 def general_prompt(task_name, instruction, input, examples=None):
     return f"{instruction}\n\nInput:\n{input}\nAnswer:\n"
@@ -79,6 +109,8 @@ prompt_dict = {
         "text-simplification2000": general_prompt,
 	    "text-simplification2400": general_prompt,
 	    "text-simplification6000": text_simplification_three_shot_prompt,
+        "text-simplification10k": text_simplification_three_shot_prompt,
+        "text-simplification16k": text_simplification_three_shot_prompt,
 	    "text-simplification100000": general_prompt,
 	    "text-simplification290000": general_prompt,
         "Default": general_prompt,

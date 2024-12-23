@@ -3,7 +3,7 @@ import string
 from useful_functions import *
 
 def nil_postprocessor(predict, data_point):
-    response = predict.split('Answer:\n')[1]
+    response = predict.split('Answer:\n')[-1].split('</s>')[0]
     return response, data_point
 
 def general_postprocessor(predict, data_point):
@@ -31,6 +31,10 @@ def text_simplification_few_shot_postprocessor(predict, data_point):
     response = predict.split('Simple: ')[-1]
     return response, data_point
 
+def text_simplification_few_shot_chat_postprocessor(predict, data_point):
+    response = predict.split('[/INST]')[-1]
+    return response, data_point
+
 postprocessor_dict = {
     "MCQA": {
         "Default": nil_postprocessor,
@@ -38,6 +42,8 @@ postprocessor_dict = {
     "Open-Ended": {
         "task934_turk_simplification": text_simplification_few_shot_postprocessor,
         "text-simplification6000": text_simplification_few_shot_postprocessor,
+        "text-simplification10k": text_simplification_few_shot_postprocessor,
+        "text-simplification16k": text_simplification_few_shot_postprocessor,
         "Default": nil_postprocessor,
     },
     "Classification": {
