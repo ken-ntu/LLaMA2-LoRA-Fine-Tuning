@@ -4,7 +4,7 @@ from peft import LoraConfig
 from transformers import BitsAndBytesConfig
 
 # model name
-base_model_name = "meta-llama/Llama-2-7b-hf"
+base_model_name = "unsloth/llama-2-7b-bnb-4bit"
 # constants
 TEST_SET_RATIO = 0.1
 VAL_SET_RATIO = 0.2
@@ -12,11 +12,8 @@ RANDOM_SEED = 42
 CUTOFF_LEN = 350
 # hyperparameters
 hyperparameters = {
-    "temperature": 0.1,
     "num_beams": 1,
-    "top_p": 0.3,
-    "no_repeat_ngram_size": 3,
-    "max_len": 256
+    "max_len": 350
 }
 # lora config
 lora_config = LoraConfig(

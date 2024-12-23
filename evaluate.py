@@ -214,12 +214,10 @@ if args.timing == "after":
 print("Setting Generation Config ...")
 
 generation_config = GenerationConfig(
-    do_sample=True,
-    temperature=hyperparameters["temperature"],
+    do_sample=False,
     num_beams=hyperparameters["num_beams"],
-    top_p=hyperparameters["top_p"],
-    no_repeat_ngram_size=hyperparameters["no_repeat_ngram_size"],
-    pad_token_id=tokenizer.pad_token_id
+    pad_token_id=0,
+    max_new_tokens=256
 )
 
 """ ====== Load Test Dataset ====== """

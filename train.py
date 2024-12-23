@@ -89,11 +89,14 @@ with open(TRAIN_SET_PATH, "r", encoding = "utf-8") as f:
 with open(VAL_SET_PATH, "r", encoding = "utf-8") as f:
     val_instances = json.load(f)
 
-train_data = [generate_training_data(tokenizer, data) for data in train_instances[:6000]]
-val_data = [generate_training_data(tokenizer, data) for data in val_instances]
+train_data = [generate_training_data(tokenizer, data) for data in train_instances]
+val_data = [generate_training_data(tokenizer, data) for data in val_instances[:0]]
 
-train_dataset = Dataset.from_list(train_data)
-val_dataset = Dataset.from_list(val_data)
+print("train_instances sample", train_data[0])
+
+check_input_ids = train_data[0]["input_ids"]
+check_tokens = [tokenizer.convert_ids_to_tokens(_id_)  for _id_ in check_input_ids]
+print("tokens splitted", check_tokens)
 
 from itertools import takewhile
 
@@ -101,7 +104,6 @@ print("user prompt token length", len([label for label in takewhile(lambda x: x 
 print("id length", len([_id for _id in train_data[0]["input_ids"] if _id != 2]) + 1)
 print("attention mask length", len([label for label in train_data[0]["attention_mask"] if label != 0]))
 
-print(train_data[0])
 """ ====== Training tokens Calculate ====== """
 print("Training tokens Calculate ...")
 
@@ -114,21 +116,6 @@ for data in train_data:
 
 print("total fine tuning tokens number", token_count)
 
-""" ====== Freeze Model Parameters ====== """
-print("Freeze Model Parameters ...")
-
-for param in model.parameters():
-  param.requires_grad = False  # freeze the model - train adapters later
-  if param.ndim == 1: #ndim = dim(): number of dimensions of tensor
-    param.data = param.data.to(torch.float16)
-
-model.gradient_checkpointing_enable()  # reduce number of stored activations
-model.enable_input_require_grads()
-
-class CastOutputToFloat(nn.Sequential):
-  def forward(self, x): return super().forward(x).to(torch.float16)
-model.lm_head = CastOutputToFloat(model.lm_head)
-
 """ ====== Add Adapter layer (LoRA) ====== """
 print("Add Adapter layer (LoRA) ...")
 
@@ -137,16 +124,15 @@ print_trainable_parameters(model)
 print(model.targeted_module_names)
 
 """ ====== NaN solution ====== """
+'''
 print("NaN solution ...")
-
-# torch.autograd.set_detect_anomaly(True)
-
+'''
 """ ====== Training ====== """
 print("Training ...")
 
-warmup_steps = 25
-num_train_epochs = 1
-learning_rate = 5e-4
+warmup_steps = 0
+num_train_epochs = 3
+learning_rate = 1e-4
 max_steps = 375
 
 training_args = TrainingArguments(
@@ -161,6 +147,7 @@ training_args = TrainingArguments(
     optim="paged_adamw_32bit",
     # evaluation_strategy="steps",
     # eval_steps=3000,
+    save_steps=500,
     seed=RANDOM_SEED,
     # max_steps=max_steps
 )
@@ -173,8 +160,6 @@ trainer = Trainer(
     args=training_args,
     data_collator=DataCollatorForLanguageModeling(tokenizer, mlm=False)
 )
-
-model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
 
 if args.check_point:
   trainer.train(args.check_point)

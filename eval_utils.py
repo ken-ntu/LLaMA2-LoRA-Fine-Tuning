@@ -15,8 +15,13 @@ def generate_training_data(tokenizer, data_point):
 
     len_user_prompt_tokens = len(user_prompt_tokens)
     
+    if "text-simplification" in task_name:
+        texts = prompt + "Simple: " + data_point["output"] + tokenizer.eos_token
+    else:
+        texts = prompt + data_point["output"] + tokenizer.eos_token
+        
     tokenized = tokenizer(
-        prompt + data_point["output"] + tokenizer.eos_token,
+        texts,
         truncation=True,
         max_length=CUTOFF_LEN + 1,
         padding="max_length"
@@ -26,10 +31,10 @@ def generate_training_data(tokenizer, data_point):
     attention_mask = tokenized["attention_mask"]
     
     return {
-	"text": prompt,
+	    "text": texts,
         "input_ids": full_tokens,
         "labels": [-100] * len_user_prompt_tokens
-            + [label if label != tokenizer.pad_token_id else -100 for label in full_tokens[len_user_prompt_tokens:]],
+            + full_tokens[len_user_prompt_tokens:],
         "attention_mask": attention_mask
     }
 
@@ -38,10 +43,10 @@ def generate_prompt_inference(task_name, tokenizer, data_point):
     data_point = preprocessor(task_name, data_point)
     if "example" in data_point:
         return set_prompt(task_name)(
-        task_name = task_name,
-        instruction = data_point["instruction"],
-        input = data_point["input"],
-        examples = data_point["examples"]
+            task_name = task_name,
+            instruction = data_point["instruction"],
+            input = data_point["input"],
+            examples = data_point["examples"]
         )
     else:
         

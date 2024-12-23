@@ -21,6 +21,21 @@ def print_trainable_parameters(model):
     )
 
     return f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
+def calculate_zero_percentage(model):
+    total_entries = 0
+    zero_entries = 0
+    
+    for param in model.parameters():
+        if param.requires_grad:  # Only consider trainable parameters
+            total_entries += param.numel()  # Total number of elements
+            zero_entries += (param == 0).sum().item()  # Count zero elements
+    
+    # Calculate the percentage of zero entries
+    zero_percentage = (zero_entries / total_entries) * 100 if total_entries > 0 else 0
+    print(
+        f"% of zero entries in params: {zero_percentage}"
+    )
+    return zero_percentage
 
 def multiple_replace(s, old, new):
     for i in range(len(old)):
@@ -49,6 +64,8 @@ def set_path_constants(task_names, multi_task=None, sparse=None):
                 TASK_DATA_PATHS[task_name] = "/work/ntuee262883/LLaMA2_LoRA/WikiLarge/turkcorpus.TrainTestMix.8refs.json"
             elif task_name == "text-simplification100000":
                 TASK_DATA_PATHS[task_name] = "/work/ntuee262883/LLaMA2_LoRA/WikiLarge/wikilarge.ori.train.json"
+            elif task_name == "text-simplification10k":
+                TASK_DATA_PATHS[task_name] = "/work/ntuee262883/LLaMA2_LoRA/WikiLarge/wikilarge.ori.train.json"
             elif task_name == "text-simplification290000":
                 TASK_DATA_PATHS[task_name] = "/work/ntuee262883/LLaMA2_LoRA/WikiLarge/wikilarge.ori.all.json"
             elif task_name == "text-simplification6000":
@@ -73,8 +90,12 @@ def set_path_constants(task_names, multi_task=None, sparse=None):
         OUTPUT_DIR = f"output/{multi_task}"
         print(f"task_names: {task_names}")
         for task_name in task_names:
-            task_number = task_name.split('_')[0]
-            OUTPUT_DIR += f"_{task_number}"
+            if "text-simplification" in task_name:
+                task_number = task_name.split('text-simplification')[-1]
+                OUTPUT_DIR += f"_ts{task_number}"
+            else:
+                task_number = task_name.split('_')[0]
+                OUTPUT_DIR += f"_{task_number}"
         
     TRAIN_SET_PATH = f"{OUTPUT_DIR}/tmp_train_dataset.json"
     TEST_SET_PATH = f"{OUTPUT_DIR}/tmp_test_dataset.json"
